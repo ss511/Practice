@@ -13,5 +13,4 @@ public class ShapeDemo {
 		shape = ShapeFactory.getShapeFactory("AAA");
 		System.out.println("Shape is null " + shape );
 	}
-
 }
