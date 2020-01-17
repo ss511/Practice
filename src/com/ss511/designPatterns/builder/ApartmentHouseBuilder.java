@@ -8,18 +8,21 @@ public class ApartmentHouseBuilder implements HouseBuilder {
 		this.house = new House();
 	}
 	@Override
-	public void buildBasement() {
+	public HouseBuilder buildBasement() {
 		house.setBasement("Tiles Flooring");
+		return this;
 	}
 
 	@Override
-	public void bulidRoof() {
+	public HouseBuilder bulidRoof() {
 		house.setRoof("Concrete Roof");
+		return this;
 	}
 
 	@Override
-	public void buildWall() {
+	public HouseBuilder buildWall() {
 		house.setWall("Concrete Wall");
+		return this;
 	}
 	
 	@Override

@@ -11,7 +11,7 @@ public class BuilderDemo {
 		
 		House house = engineer.getHouse();
 		
-		System.out.println("Built House:: " + house.getBasement());
+		System.out.println("Built House:: " + house.toString());
 		
 	}
 

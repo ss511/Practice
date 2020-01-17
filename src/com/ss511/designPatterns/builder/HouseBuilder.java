@@ -2,11 +2,11 @@ package com.ss511.designPatterns.builder;
 
 public interface HouseBuilder {
 
-	public void buildBasement();  
+	public HouseBuilder buildBasement();  
   
-    public void bulidRoof(); 
+    public HouseBuilder bulidRoof(); 
   
-    public void buildWall(); 
+    public HouseBuilder buildWall(); 
   
     public House getHouse();
 }

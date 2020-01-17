@@ -9,18 +9,21 @@ public class WoodenHouseBuilder implements HouseBuilder {
 	}
 
 	@Override
-	public void buildBasement() {
+	public HouseBuilder buildBasement() {
 		house.setBasement("Wood Flooring");
+		return this;
 	}
 
 	@Override
-	public void bulidRoof() {
+	public HouseBuilder bulidRoof() {
 		house.setRoof("Wooden Roof");
+		return this;
 	}
 
 	@Override
-	public void buildWall() {
+	public HouseBuilder buildWall() {
 		house.setWall("Wooden Wall");
+		return this;
 	}
 
 	@Override

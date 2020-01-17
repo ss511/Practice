@@ -32,4 +32,9 @@ public class House implements HousePlan{
 		return wall;
 	}
 	
+	@java.lang.Override
+    public String toString() {
+      return "Created basement = " + this.getBasement() + ", wall = " + this.getWall() + ", roof = " + this.getRoof();
+    }
+
 }

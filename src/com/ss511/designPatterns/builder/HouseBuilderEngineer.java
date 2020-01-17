@@ -13,8 +13,6 @@ public class HouseBuilderEngineer {
 	}
 	
 	public void buildHouse() {
-		this.houseBuilder.buildBasement();
-		this.houseBuilder.buildWall();
-		this.houseBuilder.bulidRoof();
+		this.houseBuilder.buildBasement().buildWall().bulidRoof();
 	}
 }
