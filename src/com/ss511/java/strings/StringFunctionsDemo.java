@@ -29,6 +29,25 @@ public class StringFunctionsDemo {
 		System.out.println(str.toLowerCase()); // Will make string lower case
 		System.out.println(str.toUpperCase()); // Will make string upper case
 		System.out.println("  abc  abc  ".trim()); // Removes leading and trailing white spaces.
+		
+		String sp1 = "String 1";
+		
+		String sp2 = "String 1";
+		
+		System.out.println(sp1);
+		System.out.println(sp2);
+		
+		System.out.println(sp1 == sp2); // true as sp2 and sp1 points to same "String 1" object in memory.
+		
+		String sn1 = new String("String 1");
+		
+		String sn2 = new String("String 1");
+		
+		System.out.println(sn1);
+		System.out.println(sn2);
+		
+		System.out.println(sn1 == sn2); // false as sn2 and sn1 points to different "String 1" object in memory.
+		
 	}
 
 }
